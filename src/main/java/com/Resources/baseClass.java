@@ -41,6 +41,7 @@ public class baseClass {
 	public void launchBrowser() throws IOException {
 		intializeDriver();
 
+		driver.manage().window().maximize();
 		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=common/home");
 
 	}
