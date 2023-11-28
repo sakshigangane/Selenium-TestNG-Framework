@@ -67,6 +67,7 @@ public class RegesterTestCases extends baseClass {
 	//	rpo.entercheckbox().click();
 		rpo.entersubmit().click();
 		
+		
 		/*SoftAssert sa=new SoftAssert();
 		
 		String firstNameErrorMsg =constant.Firstname;
