@@ -2,11 +2,7 @@ package TestCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
 import com.Resources.baseClass;
 import com.Resources.commonMethod;
 import com.Resources.constant;

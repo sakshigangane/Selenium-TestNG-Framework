@@ -1,116 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-22T00:42:43 IST" name="Suite" finished-at="2023-11-22T00:42:59 IST" duration-ms="15839">
+  <suite started-at="2023-11-28T08:29:43 IST" name="Suite" finished-at="2023-11-28T08:30:16 IST" duration-ms="32569">
     <groups>
     </groups>
-    <test started-at="2023-11-22T00:42:43 IST" name="Test" finished-at="2023-11-22T00:42:59 IST" duration-ms="15839">
+    <test started-at="2023-11-28T08:29:43 IST" name="Test" finished-at="2023-11-28T08:30:16 IST" duration-ms="32569">
       <class name="TestCases.RegesterTestCases">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.RegesterTestCases@74e52303]" started-at="2023-11-22T00:42:43 IST" name="launchBrowser" finished-at="2023-11-22T00:42:48 IST" duration-ms="5253" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T08:29:43 IST" name="launchBrowser" finished-at="2023-11-28T08:29:55 IST" duration-ms="12061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyInvalidRegistration()[pri:0, instance:TestCases.RegesterTestCases@74e52303]" started-at="2023-11-22T00:42:48 IST" name="verifyInvalidRegistration" finished-at="2023-11-22T00:42:55 IST" duration-ms="7112" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [First Name must be between 1 and 32 characters!] but found [[[ChromeDriver: chrome on windows (42e60239dc1d8e49a06cc773bfe99f50)] -> xpath: (//div[@class='text-danger'])[1]]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [First Name must be between 1 and 32 characters!] but found [[[ChromeDriver: chrome on windows (42e60239dc1d8e49a06cc773bfe99f50)] -> xpath: (//div[@class='text-danger'])[1]]]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at com.Resources.commonMethod.handleAssertions(commonMethod.java:11)
-at TestCases.RegesterTestCases.verifyInvalidRegistration(RegesterTestCases.java:79)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyInvalidRegistration()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T08:29:55 IST" name="verifyInvalidRegistration" finished-at="2023-11-28T08:30:03 IST" duration-ms="7521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidRegistration -->
-        <test-method signature="verifyValidRegistration()[pri:0, instance:TestCases.RegesterTestCases@74e52303]" started-at="2023-11-22T00:42:55 IST" name="verifyValidRegistration" finished-at="2023-11-22T00:42:55 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method handleAssertions(WebElement, String) in the type commonMethod is not applicable for the arguments (String, String)
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method handleAssertions(WebElement, String) in the type commonMethod is not applicable for the arguments (String, String)
-
-at TestCases.RegesterTestCases.verifyValidRegistration(RegesterTestCases.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="verifyValidRegistration()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T08:30:03 IST" name="verifyValidRegistration" finished-at="2023-11-28T08:30:04 IST" duration-ms="1530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidRegistration -->
       </class> <!-- TestCases.RegesterTestCases -->
       <class name="TestCases.LoginTestCases">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.LoginTestCases@2e005c4b]" started-at="2023-11-22T00:42:55 IST" name="launchBrowser" finished-at="2023-11-22T00:42:57 IST" duration-ms="2313" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.LoginTestCases@1a451d4d]" started-at="2023-11-28T08:30:04 IST" name="launchBrowser" finished-at="2023-11-28T08:30:14 IST" duration-ms="9487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLogin()[pri:0, instance:TestCases.LoginTestCases@2e005c4b]" started-at="2023-11-22T00:42:57 IST" name="verifyLogin" finished-at="2023-11-22T00:42:59 IST" duration-ms="1120" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:TestCases.LoginTestCases@1a451d4d]" started-at="2023-11-28T08:30:14 IST" name="verifyLogin" finished-at="2023-11-28T08:30:16 IST" duration-ms="1925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
