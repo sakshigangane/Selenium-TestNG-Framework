@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-28T08:29:43 IST" name="Suite" finished-at="2023-11-28T08:30:16 IST" duration-ms="32569">
+  <suite started-at="2023-11-28T12:39:31 IST" name="Suite" finished-at="2023-11-28T12:39:53 IST" duration-ms="21974">
     <groups>
     </groups>
-    <test started-at="2023-11-28T08:29:43 IST" name="Test" finished-at="2023-11-28T08:30:16 IST" duration-ms="32569">
+    <test started-at="2023-11-28T12:39:31 IST" name="Test" finished-at="2023-11-28T12:39:53 IST" duration-ms="21974">
       <class name="TestCases.RegesterTestCases">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T08:29:43 IST" name="launchBrowser" finished-at="2023-11-28T08:29:55 IST" duration-ms="12061" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T12:39:31 IST" name="launchBrowser" finished-at="2023-11-28T12:39:38 IST" duration-ms="6689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyInvalidRegistration()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T08:29:55 IST" name="verifyInvalidRegistration" finished-at="2023-11-28T08:30:03 IST" duration-ms="7521" status="PASS">
+        <test-method signature="verifyInvalidRegistration()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T12:39:38 IST" name="verifyInvalidRegistration" finished-at="2023-11-28T12:39:46 IST" duration-ms="7483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidRegistration -->
-        <test-method signature="verifyValidRegistration()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T08:30:03 IST" name="verifyValidRegistration" finished-at="2023-11-28T08:30:04 IST" duration-ms="1530" status="PASS">
+        <test-method signature="verifyValidRegistration()[pri:0, instance:TestCases.RegesterTestCases@441772e]" started-at="2023-11-28T12:39:46 IST" name="verifyValidRegistration" finished-at="2023-11-28T12:39:48 IST" duration-ms="1924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidRegistration -->
       </class> <!-- TestCases.RegesterTestCases -->
       <class name="TestCases.LoginTestCases">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.LoginTestCases@1a451d4d]" started-at="2023-11-28T08:30:04 IST" name="launchBrowser" finished-at="2023-11-28T08:30:14 IST" duration-ms="9487" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.LoginTestCases@1a451d4d]" started-at="2023-11-28T12:39:48 IST" name="launchBrowser" finished-at="2023-11-28T12:39:51 IST" duration-ms="3694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLogin()[pri:0, instance:TestCases.LoginTestCases@1a451d4d]" started-at="2023-11-28T08:30:14 IST" name="verifyLogin" finished-at="2023-11-28T08:30:16 IST" duration-ms="1925" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:TestCases.LoginTestCases@1a451d4d]" started-at="2023-11-28T12:39:51 IST" name="verifyLogin" finished-at="2023-11-28T12:39:53 IST" duration-ms="2131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
